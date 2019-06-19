@@ -49,7 +49,6 @@ void task3(void)
 	printf("[Task3] Control: 0x%x \r\n", (unsigned int)read_ctrl());
 
 	fibonacci_sequence();
-	for (unsigned int i = 0; i < 500000; i++);
 }
 
 int main(void)
